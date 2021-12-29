@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,sum_of_series=0;
+    printf("enter any number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i=i+2)
+    {
+        if(n-1!=i)
+        printf("%d+",i);
+        else
+        printf("%d",i);
+   sum_of_series=sum_of_series+i;
+    }
+   printf("=%d",sum_of_series);
+   return 0;
+}
