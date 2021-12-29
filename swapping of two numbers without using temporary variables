@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int numb_a,numb_b;
+    printf("enter numb_a and numb_b");
+    scanf("%d%d",&numb_a,&numb_b);
+    numb_a=numb_a+numb_b;
+    numb_b=numb_a-numb_b;
+    numb_a=numb_a-numb_b;
+    printf("value of a is %d and b is %d",numb_a,numb_b);
+    return 0;
+}
